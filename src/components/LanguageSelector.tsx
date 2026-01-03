@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import './LanguageSelector.css';
 
 export interface LanguageSelectorProps<T extends string> {
   /** List of supported language codes */
